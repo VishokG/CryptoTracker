@@ -34,7 +34,66 @@ const symbols = [
         logo: "assets/logos/MATIC.png",
         symbol: "MATIC"
     },
-
+    {
+        name: "Solana",
+        logo: "assets/logos/SOL.png",
+        symbol: "SOL"
+    },
+    {
+        name: "Polkadot",
+        logo: "assets/logos/DOT.png",
+        symbol: "DOT"
+    },
+    {
+        name: "Litecoin",
+        logo: "assets/logos/LTC.png",
+        symbol: "LTC"
+    },
+    {
+        name: "TRON",
+        logo: "assets/logos/TRX.png",
+        symbol: "TRX"
+    },
+    {
+        name: "Shiba Inu",
+        logo: "assets/logos/SHIB.png",
+        symbol: "SHIB"
+    },
+    {
+        name: "Avalanche",
+        logo: "assets/logos/AVAX.png",
+        symbol: "AVAX"
+    },
+    {
+        name: "Dai",
+        logo: "assets/logos/DAI.png",
+        symbol: "DAI"
+    },
+    {
+        name: "Chainlink",
+        logo: "assets/logos/LINK.png",
+        symbol: "LINK"
+    },
+    {
+        name: "Toncoin",
+        logo: "assets/logos/TON.png",
+        symbol: "TON"
+    },
+    {
+        name: "Stellar",
+        logo: "assets/logos/XLM.png",
+        symbol: "XLM"
+    },
+    {
+        name: "Filecoin",
+        logo: "assets/logos/FIL.png",
+        symbol: "FIL"
+    },
+    {
+        name: "Aptos",
+        logo: "assets/logos/APT.png",
+        symbol: "APT"
+    },
 ]
 
 export default symbols;

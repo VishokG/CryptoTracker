@@ -38,7 +38,7 @@ const NavBar = () => {
 				</ul>
 				<input type="checkbox" id='check'/>
 				<label onClick={navState} htmlFor='check' className='checkbtn'>
-					<i className='fas fa-bars'></i>
+				<img src="assets/hamburger.svg" alt="" className='logo-name'/>
 				</label>
 			</nav>
 		</div>

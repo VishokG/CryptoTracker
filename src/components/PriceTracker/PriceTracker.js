@@ -79,7 +79,7 @@ const PriceTracker = (props) => {
 			</div>
 			<div className="option-set">
 				<span className="option-key">
-					Estimate Number of ETH You will Get
+					Estimate Number of {props.cryptoInfo.symbol} You will Get
 				</span>
 			</div>
 			<input value={coins} type="text" className='value-set secondary-text' disabled name="" id="" />

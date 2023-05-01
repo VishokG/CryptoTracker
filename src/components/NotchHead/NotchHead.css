@@ -1,0 +1,94 @@
+.logo-wrap {
+	display: flex;
+	margin-top: 30px;
+	padding: 35px 0px 0;
+	width: 100%;
+	justify-content: center;
+}
+.crypto-logo {
+	top: -85px;
+	left: 20px;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background-color: #0B0719;
+	border-radius: 60px;
+	border: #423E59 solid;
+}
+
+.crypto-img {
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	top: 7.5px;
+	right: 7.5px;
+}
+
+.circle {
+	top: -50px;
+	left: 0;
+	display: block;
+	width: 100px;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+}
+.circle:after {
+	top: -82.5px;
+	left: -27.5px;
+	content: '';
+	width: 75px;
+	height: 75px;
+	border-radius: 75px;
+	background: #12121c;
+	position: absolute;
+	border: 40px solid #0B0719;
+}
+.rect-left,
+.rect-right {
+	position: relative;
+	width: 50%;
+	height: 51px;
+	float: left;
+}
+.rect-left {
+	margin-left: -50px;
+}
+.rect-right {
+	margin-right: -50px;
+}
+.inner {
+	top: 0;
+	position: absolute;
+	left: 50px;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background: #0B0719;
+}
+
+.inner-left {
+	border-top-left-radius: 20px;
+}
+
+.inner-right {
+	border-top-right-radius: 20px;
+}
+
+.rect-left .inner {
+	left: 50px;
+	right: 0;
+}
+.rect-right .inner {
+	left: 0;
+	right: 50px;
+}
+.rect {
+	top: 50px;
+	float: left;
+	height: 1px;
+	width: 100px;
+	background: #0B0719;
+	position: relative;
+}
